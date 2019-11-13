@@ -42,7 +42,8 @@ Para iniciar os serviços individualmente você pode:
 ```
 
 ### Spark executando com YARN
-In case you want Spark to use YARN:
+
+Caso você queira executar o Spark no YARN:
 
 ```bash
 export HADOOP_CONF_DIR=/home/${USER}/hadoop/etc/hadoop
