@@ -103,7 +103,11 @@ Atualize a porta do Zeppelin para não ser a mesma do Spark (8080)
 Todos os storages (Google, Amazon, Azure) bem como acesso ao Hadoop e MongoDB, são configurados no arquivo *conf/zeppelin-site.xml*.
 
 ```xml
-<property>                                                                                                                                                                                                             <name>zeppelin.notebook.mongo.uri</name>                                                                                                                                                                             <value>mongodb://localhost</value>                                                                                                                                                                                   <description>MongoDB connection URI used to connect to a MongoDB database server</description>                                                                                                                     </property>    
+<property>
+    <name>zeppelin.notebook.mongo.uri</name>
+    <value>mongodb://localhost</value>
+    <description>MongoDB connection URI used to connect to a MongoDB database server</description>
+</property>
 ```
 
 Depois de configurar, inicie o serviço do Zeppelin.
