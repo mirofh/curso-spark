@@ -43,7 +43,8 @@ Para iniciar os serviços individualmente você pode:
 
 ### Spark executando com YARN
 
-Caso você queira executar o Spark no YARN:
+Caso você queira executar o Spark no [http://ftp.unicamp.br/pub/apache/hadoop/common/hadoop-3.2.1/](YARN), siga estas instruções para configurar o [https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html#Standalone_Operation](Hadoop com YARN). Então, [https://spark.apache.org/docs/latest/running-on-yarn.html](configure o Spark).
+Utilize Java 8.
 
 ```bash
 export HADOOP_CONF_DIR=/home/${USER}/hadoop/etc/hadoop
