@@ -28,10 +28,10 @@ Spark [https://spark.apache.org/docs/latest/cluster-overview.html](define) suas 
 
 O Spark (v2.4) suporta diversos gerenciadores de recursos:
 
-    - Standalone:  Um gerenciador de cluster simples que acompanha a distribuição do Spark.
-    - Apache Mesos: Um gerenciador de cluster genérico que pode executar Hadoop MapReduce entre outros serviços.
-    - Hadoop YARN: O gerenciador de recursos do Hadoop 2.
-    - Kubernetes: Um gerenciador de recursos de código aberto para aplicação em containers.
+- Standalone:  Um gerenciador de cluster simples que acompanha a distribuição do Spark.
+- Apache Mesos: Um gerenciador de cluster genérico que pode executar Hadoop MapReduce entre outros serviços.
+- Hadoop YARN: O gerenciador de recursos do Hadoop 2.
+- Kubernetes: Um gerenciador de recursos de código aberto para aplicação em containers.
 
 ## Enviando aplicações ao Spark para serem processadas.
 
