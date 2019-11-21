@@ -48,10 +48,15 @@ O Spark (v2.4) suporta diversos gerenciadores de recursos:
 
 As opções mais comuns são:
 
-    - --class: A classe escrita pelo usuário (e.g. org.apache.spark.examples.SparkPi).
-    - --master: O endereço do serviço do Spark (e.g. spark://127.0.0.1:7077)
-    - --deploy-mode: Onde o Driver será executado, se no *cluster* ou no *cliente* (default).
-    - --conf: Quaisquer outras configurações do Spark.
-    - application-jar: Caminho para o jar da aplicação escrita pelo usuário.
-    - application-arguments: Argumentos que serão repassados a classe do usuário a ser executada.
+- --class: A classe escrita pelo usuário (e.g. org.apache.spark.examples.SparkPi).
+- --master: O endereço do serviço do Spark (e.g. spark://127.0.0.1:7077)
+- --deploy-mode: Onde o Driver será executado, se no *cluster* ou no *cliente* (default).
+- --conf: Quaisquer outras configurações do Spark.
+- application-jar: Caminho para o jar da aplicação escrita pelo usuário.
+- application-arguments: Argumentos que serão repassados a classe do usuário a ser executada.
 
+# Exemplos
+
+- [Tipos de dados](datatypes)
+- [Ações](actions)
+- [Transformações](transformations)
