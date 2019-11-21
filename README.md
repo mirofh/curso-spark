@@ -133,7 +133,7 @@ export SPARK_SUBMIT_OPTIONS="${SPARK_SUBMIT_OPTIONS} --packages ${PACKAGES}"
 export PYSPARK_PYTHON="/usr/bin/python2.7"
 export PYTHONPATH="${SPARK_HOME}/python:$PYTHONPATH"
 ```
-
+conf/zeppelin-site.xml
 
 ```xml
 <property>
