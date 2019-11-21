@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfValorDescritoPorSuasDimensoes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>37</D2C>
+    <D2N>Produto Interno Bruto a precos correntes</D2N>
+    <D3C>2002</D3C>
+    <D3N>2002</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1488787276</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>37</D2C>
+    <D2N>Produto Interno Bruto a precos correntes</D2N>
+    <D3C>2003</D3C>
+    <D3N>2003</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1717950386</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>37</D2C>
+    <D2N>Produto Interno Bruto a precos correntes</D2N>
+    <D3C>2004</D3C>
+    <D3N>2004</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1957751224</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>37</D2C>
+    <D2N>Produto Interno Bruto a precos correntes</D2N>
+    <D3C>2005</D3C>
+    <D3N>2005</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>2170584503</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>37</D2C>
+    <D2N>Produto Interno Bruto a precos correntes</D2N>
+    <D3C>2006</D3C>
+    <D3N>2006</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>2409449916</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>37</D2C>
+    <D2N>Produto Interno Bruto a precos correntes</D2N>
+    <D3C>2007</D3C>
+    <D3N>2007</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>2720262951</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>37</D2C>
+    <D2N>Produto Interno Bruto a precos correntes</D2N>
+    <D3C>2008</D3C>
+    <D3N>2008</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>3109803097</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>37</D2C>
+    <D2N>Produto Interno Bruto a precos correntes</D2N>
+    <D3C>2009</D3C>
+    <D3N>2009</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>3333039339</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>37</D2C>
+    <D2N>Produto Interno Bruto a precos correntes</D2N>
+    <D3C>2010</D3C>
+    <D3N>2010</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>3885847000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>37</D2C>
+    <D2N>Produto Interno Bruto a precos correntes</D2N>
+    <D3C>2011</D3C>
+    <D3N>2011</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>4376382000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>37</D2C>
+    <D2N>Produto Interno Bruto a precos correntes</D2N>
+    <D3C>2012</D3C>
+    <D3N>2012</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>4814760000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>37</D2C>
+    <D2N>Produto Interno Bruto a precos correntes</D2N>
+    <D3C>2013</D3C>
+    <D3N>2013</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>5331618957</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>37</D2C>
+    <D2N>Produto Interno Bruto a precos correntes</D2N>
+    <D3C>2014</D3C>
+    <D3N>2014</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>5778952780</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>37</D2C>
+    <D2N>Produto Interno Bruto a precos correntes</D2N>
+    <D3C>2015</D3C>
+    <D3N>2015</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>5995787000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>498</D2C>
+    <D2N>Valor adicionado bruto a precos correntes total</D2N>
+    <D3C>2002</D3C>
+    <D3N>2002</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1270214667</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>498</D2C>
+    <D2N>Valor adicionado bruto a precos correntes total</D2N>
+    <D3C>2003</D3C>
+    <D3N>2003</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1470717234</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>498</D2C>
+    <D2N>Valor adicionado bruto a precos correntes total</D2N>
+    <D3C>2004</D3C>
+    <D3N>2004</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1661982123</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>498</D2C>
+    <D2N>Valor adicionado bruto a precos correntes total</D2N>
+    <D3C>2005</D3C>
+    <D3N>2005</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1842818402</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>498</D2C>
+    <D2N>Valor adicionado bruto a precos correntes total</D2N>
+    <D3C>2006</D3C>
+    <D3N>2006</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>2049289978</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>498</D2C>
+    <D2N>Valor adicionado bruto a precos correntes total</D2N>
+    <D3C>2007</D3C>
+    <D3N>2007</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>2319528281</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>498</D2C>
+    <D2N>Valor adicionado bruto a precos correntes total</D2N>
+    <D3C>2008</D3C>
+    <D3N>2008</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>2626477716</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>498</D2C>
+    <D2N>Valor adicionado bruto a precos correntes total</D2N>
+    <D3C>2009</D3C>
+    <D3N>2009</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>2849762822</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>498</D2C>
+    <D2N>Valor adicionado bruto a precos correntes total</D2N>
+    <D3C>2010</D3C>
+    <D3N>2010</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>3302840000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>498</D2C>
+    <D2N>Valor adicionado bruto a precos correntes total</D2N>
+    <D3C>2011</D3C>
+    <D3N>2011</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>3720461000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>498</D2C>
+    <D2N>Valor adicionado bruto a precos correntes total</D2N>
+    <D3C>2012</D3C>
+    <D3N>2012</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>4094259000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>498</D2C>
+    <D2N>Valor adicionado bruto a precos correntes total</D2N>
+    <D3C>2013</D3C>
+    <D3N>2013</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>4553760000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>498</D2C>
+    <D2N>Valor adicionado bruto a precos correntes total</D2N>
+    <D3C>2014</D3C>
+    <D3N>2014</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>4972734000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>498</D2C>
+    <D2N>Valor adicionado bruto a precos correntes total</D2N>
+    <D3C>2015</D3C>
+    <D3N>2015</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>5155601000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>513</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da agropecuaria</D2N>
+    <D3C>2002</D3C>
+    <D3N>2002</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>81515199</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>513</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da agropecuaria</D2N>
+    <D3C>2003</D3C>
+    <D3N>2003</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>105949165</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>513</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da agropecuaria</D2N>
+    <D3C>2004</D3C>
+    <D3N>2004</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>110912703</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>513</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da agropecuaria</D2N>
+    <D3C>2005</D3C>
+    <D3N>2005</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>100957547</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>513</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da agropecuaria</D2N>
+    <D3C>2006</D3C>
+    <D3N>2006</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>105294011</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>513</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da agropecuaria</D2N>
+    <D3C>2007</D3C>
+    <D3N>2007</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>120151715</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>513</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da agropecuaria</D2N>
+    <D3C>2008</D3C>
+    <D3N>2008</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>142051182</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>513</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da agropecuaria</D2N>
+    <D3C>2009</D3C>
+    <D3N>2009</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>149212635</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>513</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da agropecuaria</D2N>
+    <D3C>2010</D3C>
+    <D3N>2010</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>159932000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>513</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da agropecuaria</D2N>
+    <D3C>2011</D3C>
+    <D3N>2011</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>190024000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>513</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da agropecuaria</D2N>
+    <D3C>2012</D3C>
+    <D3N>2012</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>200695000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>513</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da agropecuaria</D2N>
+    <D3C>2013</D3C>
+    <D3N>2013</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>240290000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>513</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da agropecuaria</D2N>
+    <D3C>2014</D3C>
+    <D3N>2014</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>249975000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>513</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da agropecuaria</D2N>
+    <D3C>2015</D3C>
+    <D3N>2015</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>258967000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>517</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da industria</D2N>
+    <D3C>2002</D3C>
+    <D3N>2002</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>334907570</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>517</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da industria</D2N>
+    <D3C>2003</D3C>
+    <D3N>2003</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>396568543</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>517</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da industria</D2N>
+    <D3C>2004</D3C>
+    <D3N>2004</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>475863218</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>517</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da industria</D2N>
+    <D3C>2005</D3C>
+    <D3N>2005</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>524686244</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>517</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da industria</D2N>
+    <D3C>2006</D3C>
+    <D3N>2006</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>567281406</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>517</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da industria</D2N>
+    <D3C>2007</D3C>
+    <D3N>2007</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>629071171</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>517</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da industria</D2N>
+    <D3C>2008</D3C>
+    <D3N>2008</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>717907186</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>517</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da industria</D2N>
+    <D3C>2009</D3C>
+    <D3N>2009</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>729222075</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>517</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da industria</D2N>
+    <D3C>2010</D3C>
+    <D3N>2010</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>904158000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>517</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da industria</D2N>
+    <D3C>2011</D3C>
+    <D3N>2011</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1011034000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>517</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da industria</D2N>
+    <D3C>2012</D3C>
+    <D3N>2012</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1065682000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>517</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da industria</D2N>
+    <D3C>2013</D3C>
+    <D3N>2013</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1131626000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>517</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da industria</D2N>
+    <D3C>2014</D3C>
+    <D3N>2014</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1183094000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>517</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da industria</D2N>
+    <D3C>2015</D3C>
+    <D3N>2015</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1160772000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>525</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2002</D3C>
+    <D3N>2002</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>209388684</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>525</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2003</D3C>
+    <D3N>2003</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>235655842</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>525</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2004</D3C>
+    <D3N>2004</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>259678619</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>525</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2005</D3C>
+    <D3N>2005</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>295129906</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>525</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2006</D3C>
+    <D3N>2006</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>333619786</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>525</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2007</D3C>
+    <D3N>2007</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>377110174</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>525</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2008</D3C>
+    <D3N>2008</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>434222689</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>525</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2009</D3C>
+    <D3N>2009</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>487178806</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>525</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2010</D3C>
+    <D3N>2010</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>537845000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>525</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2011</D3C>
+    <D3N>2011</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>598059000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>525</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2012</D3C>
+    <D3N>2012</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>652101000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>525</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2013</D3C>
+    <D3N>2013</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>746187000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>525</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2014</D3C>
+    <D3N>2014</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>816808000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>525</D2C>
+    <D2N>Valor adicionado bruto a precos correntes da administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2015</D3C>
+    <D3N>2015</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>885587000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>543</D2C>
+    <D2N>Impostos, liquidos de subsidios, sobre produtos a precos correntes</D2N>
+    <D3C>2002</D3C>
+    <D3N>2002</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>218572609</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>543</D2C>
+    <D2N>Impostos, liquidos de subsidios, sobre produtos a precos correntes</D2N>
+    <D3C>2003</D3C>
+    <D3N>2003</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>247233152</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>543</D2C>
+    <D2N>Impostos, liquidos de subsidios, sobre produtos a precos correntes</D2N>
+    <D3C>2004</D3C>
+    <D3N>2004</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>295769101</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>543</D2C>
+    <D2N>Impostos, liquidos de subsidios, sobre produtos a precos correntes</D2N>
+    <D3C>2005</D3C>
+    <D3N>2005</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>327766101</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>543</D2C>
+    <D2N>Impostos, liquidos de subsidios, sobre produtos a precos correntes</D2N>
+    <D3C>2006</D3C>
+    <D3N>2006</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>360159938</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>543</D2C>
+    <D2N>Impostos, liquidos de subsidios, sobre produtos a precos correntes</D2N>
+    <D3C>2007</D3C>
+    <D3N>2007</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>400734670</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>543</D2C>
+    <D2N>Impostos, liquidos de subsidios, sobre produtos a precos correntes</D2N>
+    <D3C>2008</D3C>
+    <D3N>2008</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>483325381</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>543</D2C>
+    <D2N>Impostos, liquidos de subsidios, sobre produtos a precos correntes</D2N>
+    <D3C>2009</D3C>
+    <D3N>2009</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>483276517</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>543</D2C>
+    <D2N>Impostos, liquidos de subsidios, sobre produtos a precos correntes</D2N>
+    <D3C>2010</D3C>
+    <D3N>2010</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>583007000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>543</D2C>
+    <D2N>Impostos, liquidos de subsidios, sobre produtos a precos correntes</D2N>
+    <D3C>2011</D3C>
+    <D3N>2011</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>655921000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>543</D2C>
+    <D2N>Impostos, liquidos de subsidios, sobre produtos a precos correntes</D2N>
+    <D3C>2012</D3C>
+    <D3N>2012</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>720501000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>543</D2C>
+    <D2N>Impostos, liquidos de subsidios, sobre produtos a precos correntes</D2N>
+    <D3C>2013</D3C>
+    <D3N>2013</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>777858957</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>543</D2C>
+    <D2N>Impostos, liquidos de subsidios, sobre produtos a precos correntes</D2N>
+    <D3C>2014</D3C>
+    <D3N>2014</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>806218780</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>543</D2C>
+    <D2N>Impostos, liquidos de subsidios, sobre produtos a precos correntes</D2N>
+    <D3C>2015</D3C>
+    <D3N>2015</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>840186000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>6575</D2C>
+    <D2N>Valor adicionado bruto a precos correntes dos servicos, exclusive administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2002</D3C>
+    <D3N>2002</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>644403214</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>6575</D2C>
+    <D2N>Valor adicionado bruto a precos correntes dos servicos, exclusive administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2003</D3C>
+    <D3N>2003</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>732543684</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>6575</D2C>
+    <D2N>Valor adicionado bruto a precos correntes dos servicos, exclusive administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2004</D3C>
+    <D3N>2004</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>815527583</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>6575</D2C>
+    <D2N>Valor adicionado bruto a precos correntes dos servicos, exclusive administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2005</D3C>
+    <D3N>2005</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>922044705</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>6575</D2C>
+    <D2N>Valor adicionado bruto a precos correntes dos servicos, exclusive administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2006</D3C>
+    <D3N>2006</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1043094775</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>6575</D2C>
+    <D2N>Valor adicionado bruto a precos correntes dos servicos, exclusive administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2007</D3C>
+    <D3N>2007</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1193195221</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>6575</D2C>
+    <D2N>Valor adicionado bruto a precos correntes dos servicos, exclusive administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2008</D3C>
+    <D3N>2008</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1332296659</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>6575</D2C>
+    <D2N>Valor adicionado bruto a precos correntes dos servicos, exclusive administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2009</D3C>
+    <D3N>2009</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1484149306</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>6575</D2C>
+    <D2N>Valor adicionado bruto a precos correntes dos servicos, exclusive administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2010</D3C>
+    <D3N>2010</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1700905000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>6575</D2C>
+    <D2N>Valor adicionado bruto a precos correntes dos servicos, exclusive administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2011</D3C>
+    <D3N>2011</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>1921344000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>6575</D2C>
+    <D2N>Valor adicionado bruto a precos correntes dos servicos, exclusive administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2012</D3C>
+    <D3N>2012</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>2175781000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>6575</D2C>
+    <D2N>Valor adicionado bruto a precos correntes dos servicos, exclusive administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2013</D3C>
+    <D3N>2013</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>2435657000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>6575</D2C>
+    <D2N>Valor adicionado bruto a precos correntes dos servicos, exclusive administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2014</D3C>
+    <D3N>2014</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>2722857000</V>
+  </ValorDescritoPorSuasDimensoes>
+  <ValorDescritoPorSuasDimensoes>
+    <D1C>1</D1C>
+    <D1N>Brasil</D1N>
+    <D2C>6575</D2C>
+    <D2N>Valor adicionado bruto a precos correntes dos servicos, exclusive administracao, defesa, educacao e saude publicas e seguridade social</D2N>
+    <D3C>2015</D3C>
+    <D3N>2015</D3N>
+    <MC>40</MC>
+    <MN>Mil Reais</MN>
+    <V>2850275000</V>
+  </ValorDescritoPorSuasDimensoes>
+</ArrayOfValorDescritoPorSuasDimensoes>
