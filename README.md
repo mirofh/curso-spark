@@ -22,9 +22,7 @@ PATH=${SPARK\_HOME}/bin:${SPARK\_HOME}/sbin:$PATH
 ```
 ## Spark executando sozinho (Standalone)
 
-Para iniciar todos os serviços necessários, configure todos os 
-nós escravos no arquivo *conf/slaves* (um por linha).
-Caso esteja configurando em sua máquina, este arquivo conterá apenas *localhost*.
+Para iniciar todos os serviços necessários, configure todos os nós escravos no arquivo *conf/slaves* (um por linha). Caso esteja configurando em sua máquina, este arquivo conterá apenas *localhost*.
 
 ```bash
 vim conf/slaves
@@ -39,14 +37,13 @@ Para iniciar os serviços individualmente você pode:
 # imprime o endereço onde o Spark está escutando (master-spark-URL)
 ./sbin/start-master.sh
 
-# Para connectar os escravos ao mestre 
+# Para connectar os escravos ao mestre
 ./sbin/start-slave.sh <master-spark-URL>
 ```
 
 ### Spark executando com YARN
 
-Caso você queira executar o Spark no [http://ftp.unicamp.br/pub/apache/hadoop/common/hadoop-3.2.1/](YARN), siga estas instruções para configurar o [https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html#Standalone_Operation](Hadoop com YARN). Então, [https://spark.apache.org/docs/latest/running-on-yarn.html](configure o Spark).
-Utilize Java 8.
+Caso você queira executar o Spark no [YARN)](http://ftp.unicamp.br/pub/apache/hadoop/common/hadoop-3.2.1/), siga estas instruções para configurar o [Hadoop com YARN](https://hadoop.apache.org/docs/stable/hadoop-project.-dist/hadoop-common/SingleCluster.html#Standalone_Operation). Então, [configure o Spark](https://spark.apache.org/docs/latest/running-on-yarn.html). Utilize Java 8.
 
 ```bash
 export HADOOP_CONF_DIR=/home/${USER}/hadoop/etc/hadoop
@@ -58,9 +55,9 @@ echo "spark.master yarn" >> ${SPARK\_HOME}/conf/spark-defaults.conf
 echo "spark.driver.memory 512m" >> ${SPARK\_HOME}/conf/spark-defaults.conf
 ```
 
-# Executando Spark 
+# Executando Spark
 
-Todos os shells disponíveis pelo estão em *${SPARK_HOME}/bin*, 
+Todos os shells disponíveis pelo estão em *${SPARK_HOME}/bin*,
 
 ```bash
 pyspark
@@ -70,14 +67,14 @@ spark-sql
 spark-submit
 ```
 
-# Instalando o Zeppelin 
+# Instalando o Zeppelin
 
 [Zeppelin](https://zeppelin.apache.org/docs/0.6.0/install/install.html#starting-apache-zeppelin-with-command-line)
 
 
 ```bash
 wget -c http://mirror.nbtelecom.com.br/apache/zeppelin/zeppelin-0.8.2/zeppelin-0.8.2-bin-all.tgz
-tar xvzf zeppelin-0.8.2-bin-all.tgz 
+tar xvzf zeppelin-0.8.2-bin-all.tgz
 cd zeppelin-0.8.2-bin-all
 ```
 
@@ -127,10 +124,12 @@ conf/zeppelin-env.sh
 
 ```bash
 export JAVA_HOME="/usr/lib/jvm/java-8-oracle/"
-export MASTER="spark://10.254.231.59:7077"
+export MASTER="spark://127.0.0.1:7077"
 export ZEPPELIN_MEM="-Xmx4096m -XX:MaxPermSize=512m"
-export SPARK_HOME="/home/erlfilho/git/spark/"
-export SPARK_SUBMIT_OPTIONS="--driver-memory 4G --executor-memory 4G --packages com.databricks:spark-csv_2.10:1.2.0,com.databricks:spark-xml_2.11:0.4.1,com.github.fommil.netlib:all:1.1.2"
+export SPARK_HOME="${HOME}/git/spark/"
+PACKAGES="com.databricks:spark-csv_2.10:1.2.0,com.databricks:spark-xml_2.11:0.4.1"
+SPARK_SUBMIT_OPTIONS="--driver-memory 4G --executor-memory 4G"
+export SPARK_SUBMIT_OPTIONS="${SPARK_SUBMIT_OPTIONS} --packages ${PACKAGES}"
 export PYSPARK_PYTHON="/usr/bin/python2.7"
 export PYTHONPATH="${SPARK_HOME}/python:$PYTHONPATH"
 ```
