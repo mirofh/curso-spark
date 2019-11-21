@@ -2,6 +2,8 @@
 
 Curso de Spark para a especialização em Big Data da UFPR
 
+<erlfilho@gmail.com>
+
 # Configurando o Spark no Linux
 
 As instruções aqui descritas seguem o [manual oficial de instalação (standalone)](https://spark.apache.org/docs/latest/spark-standalone.html).
@@ -116,4 +118,34 @@ Depois de configurar, inicie o serviço do Zeppelin.
 
 ```bash
 ./bin/zeppelin-daemon.sh start
+```
+
+
+# Configurando o Zeppelin
+
+conf/zeppelin-env.sh
+
+```bash
+export JAVA_HOME="/usr/lib/jvm/java-8-oracle/"
+export MASTER="spark://10.254.231.59:7077"
+export ZEPPELIN_MEM="-Xmx4096m -XX:MaxPermSize=512m"
+export SPARK_HOME="/home/erlfilho/git/spark/"
+export SPARK_SUBMIT_OPTIONS="--driver-memory 4G --executor-memory 4G --packages com.databricks:spark-csv_2.10:1.2.0,com.databricks:spark-xml_2.11:0.4.1,com.github.fommil.netlib:all:1.1.2"
+export PYSPARK_PYTHON="/usr/bin/python2.7"
+export PYTHONPATH="${SPARK_HOME}/python:$PYTHONPATH"
+```
+
+
+```xml
+<property>
+  <name>zeppelin.server.addr</name>
+  <value>10.254.231.59</value>
+  <description>Server binding address</description>
+</property>
+
+<property>
+  <name>zeppelin.server.port</name>
+  <value>8085</value>
+  <description>Server port.</description>
+</property>
 ```
