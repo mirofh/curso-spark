@@ -2,7 +2,7 @@
 
 Curso de Spark para a especialização em Big Data da UFPR
 
-<erlfilho@gmail.com>
+[Ramiro](www.inf.ufpr.br/erlfilho)
 
 # Configurando o Spark no Linux
 
