@@ -3,7 +3,7 @@
 
 ## Glossário
 
-Spark [https://spark.apache.org/docs/latest/cluster-overview.html](define) suas aplicações e serviços em:
+Spark [define](https://spark.apache.org/docs/latest/cluster-overview.html) suas aplicações e serviços em:
 
 | Termo           | Descrição                                                                                                                                                                                                                                                |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
