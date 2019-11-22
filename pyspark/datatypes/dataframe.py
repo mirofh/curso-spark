@@ -44,7 +44,7 @@ cities.select("nome", "codigo").show()
 # Seleciona 3 nomes:
 cities.select("nome").limit(3).show()
 
-# Selectiona todas as colunas de cities 
+# Selectiona todas as colunas de cities
 cities.select("*").show();
 
 # selectExpr: é uma variação do select que aceita expressões SQL
@@ -124,8 +124,8 @@ transf = transf.groupBy(transf.municipio, "ano").agg(F.round(F.sum("total"),2).a
 transf.show()
 
 #  Faz juncao de dois DataFrames
-j = cities.join(geo, cities['codigo'] == geo['codigo_ibge']).show()
-j.show(10)
+j = cities.join(geo, cities['codigo'] == geo['codigo_ibge']).collect()
+print(j)
 
 # Seleciona o nome, o código do IBGE, a latitude e longitude de todas as cidades.
 df1 = cities.join(geo, cities['codigo'] == geo['codigo_ibge']).select("nome", "codigo_ibge", "latitude", "longitude")
@@ -156,5 +156,7 @@ transf.createOrReplaceTempView("transf")
 geo.createOrReplaceTempView("geo")
 mcmv.createOrReplaceTempView("mcmv")
 pib.createOrReplaceTempView("pib")
+
 query_result = spark.sql("SELECT * FROM cities")
 query_result.show(3)
+
