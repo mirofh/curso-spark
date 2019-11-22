@@ -78,7 +78,7 @@ cities.filter(cities['nome'].startswith('X')).show()
 cities.filter(cities['nome'].startswith('X')).select(cities['nome'], cities['codigo']).show()
 
 # where é um alias para filter
-cities.where(cities["Nome_UF"].startswith('R')).show() 
+cities.where(cities["Nome_UF"].startswith('R')).show()
 transf.where(transf['ano'] < 1998).show()
 
 # links para a documentação do GroupBy e suas funções de agregação
@@ -93,9 +93,9 @@ cities.groupBy(cities["Nome_UF"]).count().sort("Nome_UF").show()
 # o comando abaixo vai falhar.
 #cities.groupBy(cities["Nome_UF"]).sort("Nome_UF").groupBy().show()
 
-# Agrupa o valor repassado no primeiro decendio por estado 
+# Agrupa o valor repassado no primeiro decendio por estado
 # ordena o resultado no Driver
-sorted(transf.groupBy('uf').agg({'decendio': 'avg'}).show())
+sorted(transf.groupBy('uf').agg({'decendio': 'avg'}).collect())
 
 # Retorna uma amostra dos dados
 # withReplacement: com ou sem substituição
