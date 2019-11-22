@@ -192,6 +192,43 @@ Seleciona determinadas colunas de um DataFrame:
 cities.select("nome", "codigo").show()
 ```
 
+Conta quantas linhas existe:
+
+```python
+cities.count()
+```
+
+Selectiona somente os nomes distintos:
+
+
+```python
+cities.distinct("nome")
+```
+
+Seleciona 3 nomes:
+
+```python
+cities.select("nomes").limit(3).show()
+```
+
+```python
+cities.orderBy("Nome_Mesorregiao").show()
+```
+
+```python
+cities.sort("Nome_UF").show()
+```
+
+```python
+cities.where( cities['Municipio'] < 100).show()
+```
+
+```python
+cities.sample(False, 0.145).show()
+```
+
+
+
 Calcula a quantidade de cidades por Estado:
 
 ```python
@@ -209,6 +246,10 @@ Seleciona o nome e o código de todas as cidades que começam com a letra 'X':
 ```python
 cities.filter(cities['nome'].startswith('X')).select(cities['nome'], cities['codigo']).show()
 ```
+
+
+
+
 
 Seleciona o total dos repasses do governo federal feitos aos municípios, por mes.
 
@@ -235,8 +276,6 @@ Seleciona o total dos repasses feitos do governo federal aos municipios, por ano
 transf = transf.groupBy(transf.municipio, "ano").agg(F.round(F.sum("total"),2).alias("total")).orderBy("municipio", "ano")
 transf.show()
 ```
-
-
 
 
 Realiza junção dos DataFrames *cities* e *geo* pelo código do IBGE.
