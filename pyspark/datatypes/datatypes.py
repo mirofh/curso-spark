@@ -149,7 +149,7 @@ cities.printSchema()
 print("Todas as cidades do Brasil com suas localizações geográficas e código do IBGE (código_ibge).")
 geo.printSchema()
 
-print("Todas as transferências feitas do governo federal para os municípios em 2018, dividídas por decêndios.")
+print("Todas as transferências feitas do governo federal para os municípios em 2018, divididas por decêndios.")
 transf.printSchema()
 
 print("O Produto Interno Bruto (PIB) de cada município brasileiro.")
