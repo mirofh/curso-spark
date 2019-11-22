@@ -1,5 +1,24 @@
 %spark.pyspark
 
+########################################
+# Cria um DataFrame a partir de uma lista
+
+dados = [('Curitiba', 2019)]  
+spark.createDataFrame(dados).show()
+spark.createDataFrame(dados, ["cidade", "ano"]).show()
+
+########################################
+# Cria um DataFrame a partir de um dicionario
+dados = [{'cidade': 'Curitiba', 'ano': 2019}]
+spark.createDataFrame(dados).show()
+spark.createDataFrame(dados, ["cidade", "ano"]).show()
+
+########################################
+# Cria um DataFrame a partir de RDD
+dados = [('Curitiba', 2019)]  
+rdd = sc.parallelize(dados)
+spark.createDataFrame(rdd).show()
+df = spark.createDataFrame(rdd, ['cidade', 'ano'])
 
 ########################################
 # Contém informações geográficas e código 
@@ -12,8 +31,8 @@ cities = spark.read.format("csv")\
 
 
 ########################################
-# Todas as transferências feitas do governo 
-# federal para os municípios desde 1997 até 2018, 
+# Todas as transferências feitas do governo
+# federal para os municípios em 2018
 # dividídas por decêndios.
 transf = spark.read.format("csv")\
     .option("delimiter", ";")\
@@ -96,13 +115,22 @@ pib = sqlContext.read.format('com.databricks.spark.xml')\
 
 
 ########################################
-# Mostra as duas primeiras linhas
-#  de cada arquivo
-cities.show(2)
-transf.show(2)
-geo.show(2)
-mcmv.show(2)
-pib.show(2)
+# Mostra as duas primeiras linhas de cada arquivo
+
+print("Todas as cidades do Brasil com o código do IBGE (Codigo Municipio Completo).")
+cities.show()
+
+print("Todas as cidades do Brasil com suas localizações geográficas e código do IBGE (código_ibge).")
+geo.show()
+
+print("Todas as transferências feitas do governo federal para os municípios em 2018, dividídas por decêndios.")
+transf.show()
+
+print("O Produto Interno Bruto (PIB) de cada município brasileiro.")
+pib.show()
+
+print("Quantidade de unidades habitacionais contratadas em todas as faixas (1, 2 e 3) do MCMV, por município, entre 2009 e 2014.")
+mcmv.show()
 
 ########################################
 # Todos os dados lidos estão no formato
@@ -111,3 +139,23 @@ transf
 geo
 mcmv
 pib
+
+########################################
+# Mostra o schema de cada DataFrame
+
+print("Todas as cidades do Brasil com o código do IBGE (Codigo Municipio Completo).")
+cities.printSchema()
+
+print("Todas as cidades do Brasil com suas localizações geográficas e código do IBGE (código_ibge).")
+geo.printSchema()
+
+print("Todas as transferências feitas do governo federal para os municípios em 2018, dividídas por decêndios.")
+transf.printSchema()
+
+print("O Produto Interno Bruto (PIB) de cada município brasileiro.")
+pib.printSchema()
+
+print("Quantidade de unidades habitacionais contratadas em todas as faixas (1, 2 e 3) do MCMV, por município, entre 2009 e 2014.")
+mcmv.printSchema()
+
+
