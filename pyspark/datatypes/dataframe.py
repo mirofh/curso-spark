@@ -42,7 +42,7 @@ cities.printSchema()
 cities.select("nome", "codigo").show()
 
 # Seleciona 3 nomes:
-cities.select("nomes").limit(3).show()
+cities.select("nome").limit(3).show()
 
 # Selectiona todas as colunas de cities 
 cities.select("*").show();
@@ -53,8 +53,9 @@ cities.selectExpr("Municipio < 20").show()
 # Conta quantas linhas existe:
 cities.count()
 
-# Selectiona somente os nomes distintos:
-cities.distinct("nome")
+# Retorna um novo DataFrame contendo as linhas unicas
+cities.distinct()
+cities.select("nome").distinct()
 
 # Ordena por uma coluna
 cities.sort("nome").show(3)
@@ -140,16 +141,15 @@ import pyspark.sql.functions as F
 json = transf.filter(transf.municipio == "Curitiba").groupBy(transf.municipio, "ano").agg(F.round(F.sum("total"),2).alias("total")).orderBy("municipio", "ano").toJSON()
 json.first()
 
-# convert para Pandas 
+# convert para Pandas
 #panda = transf.filter(transf.municipio == "Curitiba").groupBy(transf.municipio, "ano").agg(F.round(F.sum("total"),2).alias("total")).orderBy("municipio", "ano").toPandas()
 #panda.first()
 
 # retorna um novo DataFrame com novos nomes
 mcmv.toDF("city", "ibge_code", "year").collect()
 
- 
 #############################################
-# Cria tabelas temporarias acessiveis via SparkSQL 
+# Cria tabelas temporarias acessiveis via SparkSQL
 
 cities.createOrReplaceTempView("cities")
 transf.createOrReplaceTempView("transf")
