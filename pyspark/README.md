@@ -58,5 +58,4 @@ As opções mais comuns são:
 # Exemplos
 
 - [Tipos de dados](datatypes)
-- [Ações](actions)
-- [Transformações](transformations)
+- [Funções para DataFrame](dataframe)
