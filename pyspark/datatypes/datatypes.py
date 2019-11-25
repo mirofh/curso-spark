@@ -1,9 +1,17 @@
 %spark.pyspark
 
+
 ########################################
 # Cria um DataFrame a partir de uma lista
 
-dados = [('Curitiba', 2019)]  
+dados = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
+spark.createDataFrame(dados).show()
+spark.createDataFrame(dados, ["ano"]).show()
+
+########################################
+# Cria um DataFrame a partir de uma tupla
+
+dados = [('Curitiba', 2019)]
 spark.createDataFrame(dados).show()
 spark.createDataFrame(dados, ["cidade", "ano"]).show()
 
@@ -15,20 +23,19 @@ spark.createDataFrame(dados, ["cidade", "ano"]).show()
 
 ########################################
 # Cria um DataFrame a partir de RDD
-dados = [('Curitiba', 2019)]  
+dados = [('Curitiba', 2019)]
 rdd = sc.parallelize(dados)
 spark.createDataFrame(rdd).show()
 df = spark.createDataFrame(rdd, ['cidade', 'ano'])
 
 ########################################
-# Contém informações geográficas e código 
+# Contém informações geográficas e código
 # do IBGE para cada município do Brasil.
 cities = spark.read.format("csv")\
     .option("delimiter", ";")\
     .option("header", "true")\
     .option("encoding", "ascii")\
     .load("file:///home/erlfilho/git/zeppelin/data/municipios/municipios.csv")
-
 
 ########################################
 # Todas as transferências feitas do governo
@@ -40,11 +47,9 @@ transf = spark.read.format("csv")\
     .option("encoding", "ascii")\
     .load("file:///home/erlfilho/git/zeppelin/data/municipios/municipios-transf.csv")
 
-
 ########################################
 #  Localização geográfica de cada município.
 geo = spark.read.json("file:///home/erlfilho/git/zeppelin/data/municipios/municipios-geo.json",  multiLine=True)
-
 
 ########################################
 # Quantidade de unidades financiadas pelo
@@ -75,7 +80,7 @@ mcmv = sqlContext.read.format('com.databricks.spark.xml')\
     .load('file:///home/erlfilho/git/zeppelin/data/municipios/municipios-mcmv.xml', schema = customSchema)
 
 ########################################
-# Contém informações sobre o PIB de cada 
+# Contém informações sobre o PIB de cada
 # município do Brasil.
 
 # 1) identificar o schema

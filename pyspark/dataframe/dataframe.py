@@ -34,51 +34,76 @@ cities.describe().show()
 
 # Renomeia uma coluna de um DataFrame:
 cities.printSchema()
-cities = cities.withColumnRenamed("Nome_Municipio", "nome").withColumnRenamed("Codigo Municipio Completo", "codigo")
-cities.printSchema()
+cities.withColumnRenamed("Nome_Municipio", "nome").withColumnRenamed("Codigo Municipio Completo", "codigo").printSchema()
+
+# Renomeia uma coluna de um DataFrame:
+# Retorna um novo DataFrame com novos nomes
+mcmv.toDF("houses", "ibge_code", "year").show(3)
+
+#######
+## Ex1: mudar o nome das colunas da tabela cities.
+cities = cities.toDF("uf_code", "uf_name", "meso_code", "meso_name", "micro_code", "micro_region", "city_code", "ibge_code", "city_name")
+cities.show()
 
 # Select: projeta uma série de expressões e retorna um novo DataFrame
 # Seleciona determinadas colunas de um DataFrame:
-cities.select("nome", "codigo").show()
+cities.select("city_name", "ibge_code").show()
 
 # Seleciona 3 nomes:
-cities.select("nome").limit(3).show()
+cities.select("city_name").limit(3).show()
 
 # Selectiona todas as colunas de cities
 cities.select("*").show();
 
 # selectExpr: é uma variação do select que aceita expressões SQL
-cities.selectExpr("Municipio < 20").show()
+cities.selectExpr("municipio", "uf", "ano").show()
+
+cities.selectExpr("city_code + 20").show()
+
+#######
+## Ex2: selecione o conteúdo da tabela transf e 
+##      calcule o total dos repasses do governo federal.
+#transftotal = transf.selectExpr("municipio", "uf", "ano", "decendio + decendio2 + decendio3")
+#transftotal.show(10)
 
 # Conta quantas linhas existe:
 cities.count()
 
 # Retorna um novo DataFrame contendo as linhas unicas
 cities.distinct()
-cities.select("nome").distinct()
+cities.select("city_name").distinct()
 
 # Ordena por uma coluna
-cities.sort("nome").show(3)
-cities.sort(cities.nome.desc()).show(3)
-cities.sort("nome", ascending=False).show(3)
+cities.sort("city_name").show(3)
+cities.sort(cities.city_name.desc()).show(3)
+cities.sort("city_name", ascending=False).show(3)
 
 # Orderna por uma coluna
-cities.orderBy(cities.nome.desc()).show(10)
-cities.orderBy(["UF", "nome"], ascending=[0, 1]).show(10)
+cities.orderBy(cities.city_name.desc()).show(10)
+cities.orderBy(["uf_code", "city_name"], ascending=[0, 1]).show(10)
 # importa uma serie de funcoes
 from pyspark.sql.functions import *
-cities.sort(asc("nome")).show(10)
-cities.orderBy(desc("UF"), "nome").show(10)
+cities.sort(asc("city_name")).show(10)
+cities.orderBy(desc("uf_code"), "city_name").show(10)
+
+######
+## Ex3: qual são as 10 cidades que receberam os maiores repasses? 
+##      qual são as 10 cidades que menos os maiores repasses? 
+#transftotal = transftotal.toDF("city", "uf_acron", "year", "total")
+#transftotal.orderBy(transftotal.total.desc()).show(10)
+#transftotal.filter("total > 0").orderBy(transftotal.total.asc()).show(10)
+#transftotal.orderBy(transftotal.total.asc()).show(10)
+#transftotal.show()
 
 # Filter filtra linhas de acordo com uma condição:
 # Seleciona todas as informações de todas as cidades que começam com a letra 'X':
-cities.filter(cities['nome'].startswith('X')).show()
+cities.filter(cities['city_name'].startswith('X')).show()
 
 # Seleciona o nome e o código de todas as cidades que começam com a letra 'X':
-cities.filter(cities['nome'].startswith('X')).select(cities['nome'], cities['codigo']).show()
+cities.filter(cities['city_name'].startswith('X')).select(cities['city_name'], cities['ibge_code']).show()
 
 # where é um alias para filter
-cities.where(cities["Nome_UF"].startswith('R')).show()
+cities.where(cities["uf_name"].startswith('R')).show()
 transf.where(transf['ano'] < 1998).show()
 
 # links para a documentação do GroupBy e suas funções de agregação
@@ -86,16 +111,34 @@ transf.where(transf['ano'] < 1998).show()
 # https://spark.apache.org/docs/latest/api/python/pyspark.sql.html#pyspark.sql.GroupedData
 # groupby é um alias para groupBy
 # Calcula a quantidade de cidades por Estado:
-cities.groupBy(cities["Nome_UF"]).count().show()
-cities.groupBy(cities["Nome_UF"]).count().sort("Nome_UF").show()
+cities.groupBy(cities["uf_name"]).count().show()
+cities.groupBy(cities["uf_name"]).count().sort("uf_name").show()
 
 # Atenção: groupBy deve ser acompanhado por uma função de agregação logo após sua execução.
 # o comando abaixo vai falhar.
-#cities.groupBy(cities["Nome_UF"]).sort("Nome_UF").groupBy().show()
+#cities.groupBy(cities["uf_name"]).sort("uf_name").groupBy().show()
 
 # Agrupa o valor repassado no primeiro decendio por estado
 # ordena o resultado no Driver
 sorted(transf.groupBy('uf').agg({'decendio': 'avg'}).collect())
+
+
+######
+## Ex4: seleciona o total dos repasses feitos do governo federal aos municipios, por ano.
+#       selectiona o total dos repasses feitos pelo governo aos municipios do Paraná.
+#transftotal = transftotal.toDF("city_name", "uf_acron", "year", "total")
+#transftotal.show()
+#transftotal = transftotal.groupBy("uf_acron", "city_name", "year").agg(F.round(F.sum("total"),2).alias("total")).orderBy("uf_acron", "city_name")
+#transftotal.show()
+
+
+######
+## Ex5: quais são as 10 cidades que mais receberam repasse no Paraná?  
+#       quais são as 10 cidades que menos receberam repasse no Paraná?  
+#transftotal.groupBy("uf_acron", "city_name", "year").agg(F.round(F.sum("total"),2).alias("total")).filter("uf_acron = 'PR'").orderBy(desc("total")).show(10)
+## para mostrar o valor em milhoes
+#transftotal.groupBy("uf_acron", "city_name", "year").agg(F.round(F.sum("total"),2).alias("total")).filter("uf_acron = 'PR'").selectExpr("uf_acron", "city_name", "year", "round(total / power(10,6t),2)").orderBy(desc("total")).show(10)
+#transftotal.groupBy("uf_acron", "city_name", "year").agg(F.round(F.sum("total"),2).alias("total")).filter("uf_acron = 'PR'").orderBy(asc("total")).show(10)
 
 # Retorna uma amostra dos dados
 # withReplacement: com ou sem substituição
@@ -124,12 +167,15 @@ transf = transf.groupBy(transf.municipio, "ano").agg(F.round(F.sum("total"),2).a
 transf.show()
 
 #  Faz juncao de dois DataFrames
-j = cities.join(geo, cities['codigo'] == geo['codigo_ibge']).collect()
-print(j)
+j = cities.join(geo, cities['ibge_code'] == geo['codigo_ibge'])
+j.show(3)
 
+######
+## Ex6: Faça uma junção que resulta em uma tabela com: |city_name|uf_acron|year|total|latitude|longitude|
 # Seleciona o nome, o código do IBGE, a latitude e longitude de todas as cidades.
-df1 = cities.join(geo, cities['codigo'] == geo['codigo_ibge']).select("nome", "codigo_ibge", "latitude", "longitude")
-df1.show(10)
+#df1 = cities.join(geo, cities['ibge_code'] == geo['codigo_ibge']).select("uf", "city_name", "codigo_ibge", "latitude", "longitude")
+#df1 = cities.join(geo, cities['ibge_code'] == geo['codigo_ibge']).select("uf", "city_name", "codigo_ibge", "latitude", "longitude").join(transftotal, [transftotal.city_name == cities.city_name, transftotal.uf_acron == geo.uf], "inner").select("uf", transftotal["city_name"], "year", "total", "latitude", "longitude")
+#df1.show(3)
 
 #############################################
 # Transformar para outros tipos de dados
