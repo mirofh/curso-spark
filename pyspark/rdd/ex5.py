@@ -3,14 +3,12 @@
 # Exemplo:
 #   1. Este exemplo contém a caracterização das palavras da Biblia.
 #
-#
 # Dados:
 #      * Texto da Bíblia, disponibilizado pela Universidade de Princeton.
 #        Não contém a indexação de versículos e capítulos.
 #        ftp://ftp.cs.princeton.edu/pub/cs226/textfiles/bible.txt
 #
 # Exercício:
-#       *
 #       *
 #       *
 #
@@ -46,20 +44,21 @@ print(stopwords)
 
 # transforma todas as palavras em minusculas
 lowercase = words.map(lambda x: [i.lower() for i in x])
+lowercase.take(10)
 
 # remove todas as 'stop words' do texto
 wo_stopwords = lowercase.map(lambda x: [ word for word in x if word.lower() not in stopwords ])
+wo_stopwords.take(10)
 
 # remove palavras vazias
 wo_emptywords = wo_stopwords.map(lambda x: [ i for i in x if len(i)>0 ])
+wo_emptywords.take(10)
 
 # remove caracteres especiais
 wo_specialchars = wo_emptywords.map(lambda _list: [ ''.join(_char for _char in _word if _char.isalnum()) for _word in _list ])
 wo_specialchars.take(10)
 
 ###################################
-#
-
 # TODO: produz erro ao transformar para DataFrame
 #parsedRDD = wo_specialchars
 
@@ -115,7 +114,7 @@ good = ["jesus","john","mark","luke","saint","jerusalem","heaven"]
 evil = ["hell","baal","devil","evil","egypt","fear","mourn"]
 
 for w in evil:
-    print "synonyms for: ", w 
+    print "synonyms for: ", w
     model.findSynonyms(w, 5).show()
 
 
@@ -136,7 +135,7 @@ from pyspark.ml.clustering import KMeans
 # a regra de ouro para determinar o k: sqrt(n/2)
 import math
 nmeans = int(math.floor(math.sqrt(float(vectors.count()/2))))
-nmeans = 50
+#nmeans = 50
 
 # criamos uma instancia do k-means com:
 # - k: representa o numero de clusters a serem criados pelo k-means

@@ -189,7 +189,8 @@ print(par.collect())
 
 ########################################
 # flatMap()
-# retorna um novo RDD após primeiramente aplicar uma função em cada elemento do RDD e depois nivelar os resultados
+# retorna um novo RDD após primeiramente aplicar uma função em cada elemento do
+# RDD e depois nivelar os resultados
 
 # map é uma transformação um-pra-um. Transforma cada elemento de um RDD em um outro elemento.
 # flatMap é uma transformação um-para-muitos. Transforma cada elemento de um RDD em um ou mais elementos.
@@ -216,9 +217,11 @@ print [(k, list(v)) for (k, v) in y.collect()]
 ########################################
 # GroupByKey()
 # Agrupa valores para cada chave no RDD original.
-# Cria um novo par onde a chave original corresponde a esse grupo de valores coletados.
+# Cria um novo par onde a chave original corresponde a esse grupo de valores
+# coletados.
 
-# groupByKey() é executado sobre PairRDDs e é usado para agrupar todos os valores relacioados a uma dada chave.
+# groupByKey() é executado sobre PairRDDs e é usado para agrupar todos os
+# valores relacioados a uma dada chave.
 # groupBy() pode ser usado em ambos unpaired e paired RDDs.
 
 x = sc.parallelize([('B',5),('B',4),('A',3),('A',2),('A',1)])
@@ -286,6 +289,7 @@ print(yz.glom().collect())
 x = sc.parallelize([("a", 1), ("b", 2)])
 y = sc.parallelize([("a", 3), ("a", 4), ("b", 5)])
 z = x.join(y)
+# saida: [('a', (1, 3)), ('a', (1, 4)), ('b', (2, 5))]
 
 print(z.collect())
 

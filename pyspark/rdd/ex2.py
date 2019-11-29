@@ -27,19 +27,28 @@ assunto = familias.map(lambda x: (x.split(';')[6].encode('utf-8').replace("\"", 
 assunto.reduceByKey(lambda x,y: x + y).take(2)
 agrupados = assunto.reduceByKey(lambda x,y: x + y).takeOrdered(20, lambda x: x[1] *-1)
 
-chaves = []
-valores = []
-for chave, valor in agrupados:
-    chaves.append(chave)
-    valores.append(valor)
-    
-import matplotlib.pyplot as plt
+#############################
+# Cria tabela no SparkSQL
+df = spark.createDataFrame(agrupados, ["assunto", "valor"])
+df.select("assunto", "valor").orderBy("valor", ascending=False).show()
+df.createOrReplaceTempView("most_called")
 
-# Plot
-plt.figure(figsize=(7,7))
-plt.rcParams.update({'font.size': 8})
-plt.pie(valores,  labels=zip(chaves, valores))
-# plt.pie(valores,  labels=chaves)
-plt.show(bbox_inches='tight')
+#############################
+# Cria lista no Driver
+
+# chaves = []
+# valores = []
+# for chave, valor in agrupados:
+#     chaves.append(chave)
+#     valores.append(valor)
+#     
+# import matplotlib.pyplot as plt
+# 
+# # Plot
+# plt.figure(figsize=(7,7))
+# plt.rcParams.update({'font.size': 8})
+# plt.pie(valores,  labels=zip(chaves, valores))
+# # plt.pie(valores,  labels=chaves)
+# plt.show(bbox_inches='tight')
 
 

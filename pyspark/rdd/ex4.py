@@ -13,10 +13,9 @@
 
 
 # ftp://ftp.cs.princeton.edu/pub/cs226/textfiles/bible.txt
-rdd = sc.textFile("file:///home/erlfilho/git/zeppelin/data/discursos/hitler/*.txt")
+rdd = sc.textFile("file:///home/erlfilho/git/zeppelin/data/discursos/churchill/*.txt")
 words = rdd.map(lambda phrase: phrase.split(' '))
 words.take(1)
-
 
 # stop words
 sw = sc.textFile("/data/stopwords.txt")
@@ -28,10 +27,8 @@ wo_specialchars = wo_emptywords.map(lambda x: [ ''.join(c for c in w if c.isalnu
 parsedRDD = wo_specialchars.map(lambda x: (x,))
 parsedRDD.take(1)
 
-
 df  = spark.createDataFrame(parsedRDD, ["text"])
 df.show()
-
 
 from pyspark.ml.feature import Word2Vec
 

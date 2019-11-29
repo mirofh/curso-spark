@@ -43,17 +43,24 @@ agrupados = assunto.reduceByKey(lambda x,y: x + y)
 # seleciona as 10 chamadas mais realizadas
 agrupados = assunto.reduceByKey(lambda x,y: x + y).takeOrdered(10, lambda x: x[1] *-1)
 
+#############################
+# Cria tabela no SparkSQL
+#df = spark.createDataFrame(agrupados, ["assunto", "valor"])
+#df.select("assunto", "valor").orderBy("valor", ascending=False).show()
+#df.createOrReplaceTempView("most_called")
+
+#############################
+# Cria lista no Driver
+
 chaves = []
 valores = []
 for chave, valor in agrupados:
     chaves.append(chave)
     valores.append(valor)
-
 # print(chaves)
 # print(valores)
 
 import matplotlib.pyplot as plt
-
 # Plot
 plt.figure(figsize=(5,5))
 plt.rcParams.update({'font.size': 8})
